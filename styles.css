@@ -43,15 +43,33 @@
 
 }
 .information{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 75px;
+    padding-right: 75px;
     height: 200px;
 }
 
 .quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     background-color: #E5E7EB;
-    height: 200px;
+    height: 300px;
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
 
 }
-
+#author{
+    padding-top: 0px;
+    margin-top: 0px;
+    color: #000;
+    font-style:normal;
+    font-weight: bold;
+}
 .cta{
     height: 200px;
 }
@@ -83,4 +101,19 @@ button{
     border-radius: 12px;
     height: 40px;
     width: 100px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.middle{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
 }

@@ -1,3 +1,7 @@
+:root{
+    --background: #20371f;
+}
+
 .page{
     height: 100%;
     display: flex;
@@ -10,7 +14,7 @@
 .header{
     color: #F9FAF8;
     display: flex;
-    background-color: #1F2937;
+    background-color: var(--background, blue);
     height: 50px;
     align-items: center;
     justify-content: space-between;
@@ -30,25 +34,53 @@
 }
 
 .hero{
-    background-color: #1F2937;
-    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background, blue);
+    height: 200px;
+    padding: 75px;
 
 }
 .information{
-    height: 140px;
+    height: 200px;
 }
 
 .quote{
     background-color: #E5E7EB;
-    height: 140px;
+    height: 200px;
 
 }
 
 .cta{
-    height: 140px;
+    height: 200px;
 }
 
 .footer{
-    background-color: #1F2937;
+    background-color: var(--background, blue);
     height: 60px;
+}
+
+h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#hero-small{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    color: #F9FAF8;
+    font-weight: bold;
+    background-color: #83e17f;
+    border: 0px;
+    border-color: transparent;
+    border-radius: 12px;
+    height: 40px;
+    width: 100px;
 }

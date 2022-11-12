@@ -117,3 +117,23 @@ button{
     font-weight: bold;
     text-align: center;
 }
+
+#box-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.box-items{
+    margin-left: 75px;
+    margin-right: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#down{
+    background-color: #20371f;
+    border-radius: 12px;
+}

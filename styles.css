@@ -76,7 +76,12 @@
 
 .footer{
     background-color: var(--background, blue);
-    height: 60px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 75px;
 }
 
 h1{
@@ -137,3 +142,44 @@ button{
     background-color: #20371f;
     border-radius: 12px;
 }
+
+#text1{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#text2{
+    font-size: 18px;
+    margin-top: 0px;
+    color: #F9FAF8;
+}
+
+a:link {
+    color: #F9FAF8;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #E5E7EB;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #83e17f;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #83e17f;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  #credit{
+    font-size: 12px;
+  }
